@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bug On Wire</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <h1>MAN ON WIRE</h1>
+      <p>Score: <span id="score">0</span></p>
+      <div id="timer">Time: 00:00:000</div>
+    </header>
+    <!-- canvas -->
+    <section>
+      <audio
+        id="gameSound"
+        src="sound/bgsound.wav"
+        loop
+        autoplay
+        preload="auto"
+      ></audio>
+      <canvas id="canvas"></canvas>
+    </section>
+    <!-- script -->
+    <script src="index.js"></script>
+  </body>
+</html>
